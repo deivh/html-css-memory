@@ -95,7 +95,7 @@ main {
   text-shadow: 2px 1px purple;
 }
 
-.cart-type.static:hover{
+.card-type.static:hover{
   color: red;
   text-shadow: 2px 1px orange;
 }
