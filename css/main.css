@@ -73,10 +73,21 @@ main {
 
 
 .card-type {
-vertical-align: middle;
-text-align: center;
-line-height: 5px;
-font-size: 18px;
-text-shadow: 2px 1px orange;
-font-weight: bold;
+  color: red;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 5px;
+  font-size: 18px;
+  text-shadow: 2px 1px orange;
+  font-weight: bold;
+}
+
+.card-type.static {
+  color: pink;
+  text-shadow: 2px 1px purple;
+}
+
+.cart-type.static:hover{
+  color: red;
+  text-shadow: 2px 1px orange;
 }
