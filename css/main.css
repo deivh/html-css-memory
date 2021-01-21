@@ -1,3 +1,23 @@
-body{
-  background-color: red;
+
+/* regole generiche di pagina */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: lightblue;
+}
+
+/* regole ricorrenti di pagina */
+
+
+/* regole intestazione/titolo gioco */
+
+
+/* regole corpo centrale pagina */
+
+
+/* regole fila di carte */
