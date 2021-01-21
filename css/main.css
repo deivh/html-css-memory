@@ -30,6 +30,22 @@ header h1 {
 }
 
 /* regole corpo centrale pagina */
+main {
+  padding: 5% 18%;
+}
 
 
 /* regole fila di carte */
+
+.card img {
+  max-width: 100%;
+  padding: 20px;
+  background-color: white;
+}
+
+.card{
+background-color: white;
+width: 140px;
+height: 170px;
+display: inline-block;
+}
