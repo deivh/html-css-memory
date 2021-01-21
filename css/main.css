@@ -1,4 +1,5 @@
 
+/* general rules */
 /* regole generiche di pagina */
 
 * {
@@ -12,6 +13,7 @@ body {
   background-color: lightblue;
 }
 
+/* recurring rules */
 /* regole ricorrenti di pagina */
 
 .card{
@@ -36,7 +38,9 @@ body {
   font-weight: bold;
 }
 
+/* header/game title rules */
 /* regole intestazione/titolo gioco */
+
 header {
   text-align: center;
   vertical-align: middle;
@@ -50,16 +54,17 @@ header h1 {
   text-shadow: 1px 1px gray;
 }
 
+/* main part rules */
 /* regole corpo centrale pagina */
+
 main {
-position: absolute;
-top: 25%;
-bottom: 25%;
-left: 25%;
-right: 25%;
+  /* position: absolute;
+  left: 28%;
+  right: 20%; */
+  padding: 20px 15% 0 26%;
 }
 
-
+/* card rules */
 /* regole carte */
 
 .card img {
@@ -93,4 +98,15 @@ right: 25%;
 .cart-type.static:hover{
   color: red;
   text-shadow: 2px 1px orange;
+}
+
+/* credits rules */
+/* regole footer */
+
+footer div{
+  text-align: center;
+}
+
+footer div span:hover{
+  color: red;
 }
