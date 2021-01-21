@@ -35,17 +35,46 @@ main {
 }
 
 
-/* regole fila di carte */
+/* regole carte */
 
 .card img {
   max-width: 100%;
-  padding: 20px;
-  background-color: white;
+  padding: 10px;
 }
 
+.overlay {
+  width: 140px;
+  height: 170px;
+  background-image: url(../img/pattern.png);
+  background-color: white;
+  background-size: contain;
+  position: absolute;
+  z-index: 10;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+.overlay:hover{
+  display: none;
+}
+
+
 .card{
-background-color: white;
-width: 140px;
-height: 170px;
-display: inline-block;
+  background-color: white;
+  width: 140px;
+  height: 170px;
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+
+.card-type {
+vertical-align: middle;
+text-align: center;
+line-height: 5px;
+font-size: 18px;
+text-shadow: 2px 1px orange;
+font-weight: bold;
 }
